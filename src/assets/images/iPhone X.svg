@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 45" width="375" height="45">
+	<title>iPhone X</title>
+	<defs>
+		<image  width="375" height="44" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXcAAAAsCAMAAACpIAhMAAAAAXNSR0IB2cksfwAAAE5QTFRFCAoLGBoag4SFwcLCoqOjJykpRUZHNzg5dHV2ZGVmoqOkExQW4ODg////k5SU8PDwZGZmHiAgk5OUVVZXsbKz0dHRJykqsrOzZWZmHR8gyfUhKgAAAcxJREFUeJztl+1ygjAQRTefEMyiFVH6/i/aTYLSWu1MqVOnzT1/YDMDyRyXm0gEAAAAAAAAAAAAAAAAAABQDUobY927Aa91U67tk5b0ZFxYdDRt13XaX2q1ucmKSSJHw3GZSUXmINeeOf5k9X+XyNv5bme4EPUs6Lbhl+9PsmdNNLC5DPSsk3fDtlbv4jlfXbK+PXSHMZkvPb+hXXdNs8a74RQqIx/Jtek3daxD9u5dhd5bjs3Fu3z4pth2VsZy+G7I8jVhjfdTfl/kQTq/S3dRZe+KavRuk8Wz92k7ye53isZ6iWOdx+54b76d8JrH5tinh4dxkETjibJ3qs27S4HxwTul/i+cnCoDd7x7f++1d9mn8LLS73nyaKlS7wPL937lvZF877WWwDkf7R7nnXwIypb0ku63Wh/Y9FSV97Zrpds+e6dJ5z5v9+eBh+XMTr4uafOk+Ji8z+cmqsp7Mn3Tu7S8HLL1Uj5sX/UcpzBKqkuWze+vL2e+8D5JZZdyQ625xq/xTim9snHNfRmpz/tWTJ/zfcjVwvRe++P+N8mJ0fuyWR/XPP0vaILsi0OQs3MY5mrhQ6Feb6B+d7UAAAAAAAAAAAAAAAAAns4beXgbrq04hnoAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

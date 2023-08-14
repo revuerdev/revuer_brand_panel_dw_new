@@ -1,0 +1,293 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Telegraf-Regular';
+  src: url("PPTelegraf-Regular.otf");
+}
+@font-face {
+  font-family: 'Telegraf-UltraBold';
+  src: url("PPTelegraf-UltraBold.otf");
+}
+@font-face {
+  font-family: 'Telegraf-UltraLight';
+  src: url("PPTelegraf-UltraLight.otf");
+}
+body{
+  overflow-x: hidden;
+}
+.Telegraf-Re{
+  font-family: 'Telegraf-Regular';
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #002060;
+  color: #fff;
+}
+
+.py-152 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    line-height: 1.5;
+
+  }
+  .py-152 {
+    padding-bottom: 3rem !important;
+    line-height: 1.5;
+
+  }
+
+.header-content img {
+  padding: 5px;
+  margin-right: 10px;
+  max-width: 150px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.header-content #logo-title {
+  font-family: 'Telegraf-UltraBold';
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+.header-content #logo-sponsor {
+  text-align: right;
+  font-family: 'Telegraf-UltraLight';
+  font-size: 25px;
+}
+.para-heading {
+  font-family: 'Telegraf-UltraBold';
+  font-size: 94px;
+  color: #344263;
+  line-height: 94px;
+}
+.para-text {
+  font-size:38px;
+}
+.btn {
+  font-weight: 500;
+  background-color: #FFDE59;
+  border-radius: 10px;
+  font-size: 30px;
+  border: none;
+  padding: 0.375rem 0.75rem;
+}
+.highlights img {
+  max-width: 100px;
+  margin: auto;
+}
+#brand-logo {
+  max-width: 120px;
+  border: 1px solid #fce8b1;
+  border-radius: 50%;
+  padding: 5px;
+}
+.highlight-text {
+  font-size:55px;
+  font-weight: 500;
+  color:#212529;
+  line-height: 70px;
+}
+.app-logo{
+  max-width: 100px;
+}
+.mail-icon {
+  max-width: 50px;
+  padding: 7px;
+}
+.footer-link {
+  color: #344263;
+  font-size: 35px;
+  line-height: 100px;
+  text-decoration: none;
+  padding-left: 10px;
+  font-family: 'Telegraf-UltraBold';
+}
+.mailer-content, .phone-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mailer-content a, .phone-content a  {
+  text-decoration: none;
+  color: #344263;
+  font-size:27px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .para-heading {
+      font-size: 83px;
+      line-height: 83px;
+  }
+  .para-text {
+      font-size: 35px;
+  }
+  .btn {
+      font-size: 29px;
+  }
+  .highlight-text {
+      font-size: 50px;
+      line-height: 58px;
+  }
+  .app-logo{
+      max-width: 80px;
+  }
+  .mail-icon {
+      max-width: 50px;
+  }
+  .footer-link {
+      font-size: 30px;
+      line-height: 80px;
+  }
+  .mailer-content a, .phone-content a  {
+      font-size: 30px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .para-heading {
+      font-size: 69px;
+      line-height: 69px;
+  }
+  .para-text {
+      font-size: 29px;
+  }
+  .btn {
+      font-size: 24px;
+  }
+  .highlight-text {
+      font-size: 45px;
+      line-height: 52px;
+  }
+  .app-logo{
+      max-width: 70px;
+  }
+  .mail-icon {
+      max-width: 50px;
+  }
+  .footer-link {
+      font-size: 24px;
+      line-height: 70px;
+  }
+  .mailer-content a, .phone-content a  {
+      font-size: 24px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .para-heading {
+      font-size: 51px;
+      line-height: 51px;
+  }
+  .para-text {
+      font-size: 21px;
+  }
+  .btn {
+      font-size: 16px;
+  }
+  .highlight-text {
+      font-size: 30px;
+      line-height: 36px;
+  }
+  .app-logo{
+      max-width: 50px;
+  }
+  .mail-icon {
+      max-width: 50px;
+  }
+  .footer-link {
+      font-size: 17px;
+      line-height: 50px;
+  }
+  .mailer-content a, .phone-content a  {
+      font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .para-heading {
+      font-size: 50px;
+      line-height: 50px;
+  }
+  .para-text {
+      font-size: 21px;
+  }
+  .btn {
+      font-size: 23px;
+  }
+  .highlights img {
+      max-width: 60px;
+  }
+  .highlight-text {
+      font-size: 20px;
+      line-height: 25px;
+      margin-top: 13px;
+  }
+  .app-logo{
+      max-width: 50px;
+  }
+  .mail-icon {
+      max-width: 50px;
+  }
+  .footer-link {
+      font-size: 25px;
+      line-height: 50px;
+  }
+  .mailer-content a, .phone-content a  {
+      font-size: 25px;
+  }
+  .mailer-content, .phone-content {
+      justify-content: center;
+  }
+  #text4 .col-xs-12 {
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+  }
+}
+
+
+
+@media (min-width: 1400px){
+.container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1320px;
+}
+}
+
+@media (min-width: 576px){
+.container-sm, .container {
+    max-width: 540px;
+}
+}
+
+@media (min-width: 768px){
+.container-md, .container-sm, .container {
+    max-width: 720px;
+}
+}
+
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.p-125 {
+  padding: 2.9rem !important;
+}
+.mt-152{
+  margin-top:3rem;
+}
+.my-145{
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+@media(max-width:768px){
+
+  .p-125 {
+    padding:1.5rem !important;
+}
+
+}

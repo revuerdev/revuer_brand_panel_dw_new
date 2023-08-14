@@ -1,0 +1,36 @@
+export const PaymentModal = ({ img,type,message,status, onSuccess, onFailure }) => {
+    return (
+        <div className="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden" id="modal">
+            <div className="flex items-center justify-center min-height-100vh pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+                <div className="fixed top-1/3 sm:inset-0 transition-opacity">
+                    <div className="absolute inset-0 bg-gray-900 opacity-75" />
+                </div>
+                <span className="hidden sm:inline-block sm:align-middle sm:h-screen">&#8203;</span>
+                <div
+                    className="inline-block align-center bg-white rounded-xl text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full"
+                    role="dialog"
+                    aria-modal="true"
+                    aria-labelledby="modal-headline"
+                >
+                    <div className="bg-white px-8 pt-2 pb-4 sm:p-6 sm:pb-4">
+                        <img src={img} className="mx-auto w-2/12 mt-6 mb-3" />
+                        <h5 className="text-2xl text-center mb-4 font-semibold">{status}</h5>
+                        <p className="text-sm font-semibold text-center mb-3">{message}</p>
+                        <div className="flex justify-center">
+                            {type==true?
+                            <>
+                            <button className="bac-3 w-32 font-bold py-2 text-white text-xl m-1 sm:m-3 rounded-lg" onClick={onFailure}>NO</button>
+                            <button className="bac-6 w-32 font-bold py-2 text-white text-xl m-1 sm:m-3 rounded-lg" onClick={onSuccess}>Yes</button>
+                            </>:
+                            <>
+                            <button className="bac-6 w-32 font-bold py-2 text-white text-xl m-1 sm:m-5 rounded-lg uppercase" onClick={onSuccess}>Done</button>
+                            </>
+}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+export default PaymentModal
